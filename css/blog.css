@@ -1,0 +1,760 @@
+@media (min-width:1200px){
+.blog{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px 0;
+}
+
+.blog .blog-post{
+    width: 33.33%;
+    padding: 10px;
+    float: left;
+    border-radius: 6px;
+    box-shadow: 2px 2px 2px #333;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog .blog-post h2{
+    padding: 5px;
+    font-size: 19px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.blog .blog-post hr{
+    width: 65%;
+    height: 3px;
+    margin: 8px auto;
+    border-radius: 1.5px;
+    background-color: #555;
+}
+
+.blog .blog-post p{
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 10px;
+    color: rgb(121, 92, 92);
+}
+
+.blog .blog-post a{
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    padding: 8px 15px;
+    background-color: whitesmoke;
+    color:rgb(121, 92, 92) ;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    transition: all .3s ease-in-out;
+}
+
+.blog .blog-post a:hover{
+    color: rgb(102, 70, 70);
+    box-shadow:2px 2px 2px #333 ;
+}
+
+.blog .blog-post .insta
+,.blog .blog-post .telegram
+,.blog .blog-post .facebook
+,.blog .blog-post .gplus {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: rgba(30 ,30 ,30 ,.3);
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+
+.blog .blog-post .insta span
+,.blog .blog-post .telegram span
+,.blog .blog-post .facebook span
+,.blog .blog-post .gplus span{
+    font-size: 35px;
+    line-height: 60px;
+    transform: rotate(-45deg);
+}
+
+.blog .blog-post .insta{
+    position: absolute;
+    top:-60px;
+    left:-60px;
+    transition: all .4s ease-in;
+}
+
+.blog .blog-post .telegram{
+    position: absolute;
+    top:-60px;
+    right:-60px;
+    transition: all .4s ease-in;
+}
+
+.blog .blog-post .facebook{
+    position: absolute;
+    bottom:-60px;
+    right:-60px;
+    transition: all .4s ease-in;
+}
+
+.blog .blog-post .gplus{
+    position: absolute;
+    bottom:-60px;
+    left:-60px;
+    transition: all .4s ease-in;
+}
+
+.blog .blog-post:hover .insta{
+    transform: rotate(45deg);
+    top: 60px;
+    left: 60px;
+}
+
+.blog .blog-post:hover .insta:hover span{
+    color: orangered;
+}
+
+.blog .blog-post:hover .telegram{
+    transform: rotate(45deg);
+    top: 60px;
+    right: 60px;
+}
+
+.blog .blog-post:hover .telegram:hover span{
+    color: darkblue;
+}
+
+.blog .blog-post:hover .facebook{
+    transform: rotate(45deg);
+    bottom: 280px;
+    right: 60px;
+}
+
+.blog .blog-post:hover .facebook:hover span{
+    color: lightskyblue;
+}
+
+
+.blog .blog-post:hover .gplus{
+    transform: rotate(45deg);
+    bottom: 280px;
+    left: 60px;
+}
+
+.blog .blog-post:hover .gplus:hover span{
+    color: crimson;
+}
+img{
+    max-width: 100%;
+}
+}
+@media (min-width:990px ) and (max-width :1200px){
+    .blog{
+        width: 100%;
+        margin: 10px 0;
+        padding: 15px 0;
+    }
+    
+    .blog .blog-post{
+        width: 33.33%;
+        padding: 10px;
+        float: left;
+        border-radius: 6px;
+        box-shadow: 2px 2px 2px #333;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .blog .blog-post h2{
+        padding: 5px;
+        font-size: 19px;
+        line-height: 1.6;
+        text-align: center;
+    }
+    
+    .blog .blog-post hr{
+        width: 65%;
+        height: 3px;
+        margin: 8px auto;
+        border-radius: 1.5px;
+        background-color: #555;
+    }
+    
+    .blog .blog-post p{
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: justify;
+        padding: 10px;
+        color: rgb(121, 92, 92);
+    }
+    
+    .blog .blog-post a{
+        display: block;
+        width: 80%;
+        margin: 5px auto;
+        padding: 8px 15px;
+        background-color: whitesmoke;
+        color:rgb(121, 92, 92) ;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 4px;
+        transition: all .3s ease-in-out;
+    }
+    
+    .blog .blog-post a:hover{
+        color: rgb(102, 70, 70);
+        box-shadow:2px 2px 2px #333 ;
+    }
+    
+    .blog .blog-post .insta
+    ,.blog .blog-post .telegram
+    ,.blog .blog-post .facebook
+    ,.blog .blog-post .gplus {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        background-color: rgba(30 ,30 ,30 ,.3);
+        border-radius: 2px;
+        cursor: pointer;
+        
+    }
+    
+    .blog .blog-post .insta span
+    ,.blog .blog-post .telegram span
+    ,.blog .blog-post .facebook span
+    ,.blog .blog-post .gplus span{
+        font-size: 35px;
+        line-height: 60px;
+        transform: rotate(-45deg);
+    }
+    
+    .blog .blog-post .insta{
+        position: absolute;
+        top:-60px;
+        left:-60px;
+        transition: all .4s ease-in;
+    }
+    
+    .blog .blog-post .telegram{
+        position: absolute;
+        top:-60px;
+        right:-60px;
+        transition: all .4s ease-in;
+    }
+    
+    .blog .blog-post .facebook{
+        position: absolute;
+        bottom:-60px;
+        right:-60px;
+        transition: all .4s ease-in;
+    }
+    
+    .blog .blog-post .gplus{
+        position: absolute;
+        bottom:-60px;
+        left:-60px;
+        transition: all .4s ease-in;
+    }
+    
+    .blog .blog-post:hover .insta{
+        transform: rotate(45deg);
+        top: 60px;
+        left: 60px;
+    }
+    
+    .blog .blog-post:hover .insta:hover span{
+        color: orangered;
+    }
+    
+    .blog .blog-post:hover .telegram{
+        transform: rotate(45deg);
+        top: 60px;
+        right: 60px;
+    }
+    
+    .blog .blog-post:hover .telegram:hover span{
+        color: darkblue;
+    }
+    
+    .blog .blog-post:hover .facebook{
+        transform: rotate(45deg);
+        bottom: 280px;
+        right: 60px;
+    }
+    
+    .blog .blog-post:hover .facebook:hover span{
+        color: lightskyblue;
+    }
+    
+    
+    .blog .blog-post:hover .gplus{
+        transform: rotate(45deg);
+        bottom: 280px;
+        left: 60px;
+    }
+    
+    .blog .blog-post:hover .gplus:hover span{
+        color: crimson;
+    }
+    img{
+        max-width: 100%;
+    }
+    }
+    @media (min-width:768px ) and (max-width :990px){
+        .blog{
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px 0;
+        }
+        
+        .blog .blog-post{
+            width: 32.33%;
+            padding: 10px;
+            float: left;
+            border-radius: 6px;
+            box-shadow: 2px 2px 2px #333;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .blog .blog-post h2{
+            padding: 5px;
+            font-size: 19px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        
+        .blog .blog-post hr{
+            width: 65%;
+            height: 3px;
+            margin: 8px auto;
+            border-radius: 1.5px;
+            background-color: #555;
+        }
+        
+        .blog .blog-post p{
+            font-size: 13px;
+            line-height: 1.4;
+            text-align: justify;
+            padding: 10px;
+            color: rgb(121, 92, 92);
+        }
+        
+        .blog .blog-post a{
+            display: block;
+            width: 80%;
+            margin: 5px auto;
+            padding: 8px 15px;
+            background-color: whitesmoke;
+            color:rgb(121, 92, 92) ;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 4px;
+            transition: all .3s ease-in-out;
+        }
+        
+        .blog .blog-post a:hover{
+            color: rgb(102, 70, 70);
+            box-shadow:2px 2px 2px #333 ;
+        }
+        
+        .blog .blog-post .insta
+        ,.blog .blog-post .telegram
+        ,.blog .blog-post .facebook
+        ,.blog .blog-post .gplus {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            background-color: rgba(30 ,30 ,30 ,.3);
+            border-radius: 2px;
+            cursor: pointer;
+            
+        }
+        
+        .blog .blog-post .insta span
+        ,.blog .blog-post .telegram span
+        ,.blog .blog-post .facebook span
+        ,.blog .blog-post .gplus span{
+            font-size: 35px;
+            line-height: 60px;
+            transform: rotate(-45deg);
+        }
+        
+        .blog .blog-post .insta{
+            position: absolute;
+            top:-60px;
+            left:-60px;
+            transition: all .4s ease-in;
+        }
+        
+        .blog .blog-post .telegram{
+            position: absolute;
+            top:-60px;
+            right:-60px;
+            transition: all .4s ease-in;
+        }
+        
+        .blog .blog-post .facebook{
+            position: absolute;
+            bottom:-60px;
+            right:-60px;
+            transition: all .4s ease-in;
+        }
+        
+        .blog .blog-post .gplus{
+            position: absolute;
+            bottom:-60px;
+            left:-60px;
+            transition: all .4s ease-in;
+        }
+        
+        .blog .blog-post:hover .insta{
+            transform: rotate(45deg);
+            top: 60px;
+            left: 60px;
+        }
+        
+        .blog .blog-post:hover .insta:hover span{
+            color: orangered;
+        }
+        
+        .blog .blog-post:hover .telegram{
+            transform: rotate(45deg);
+            top: 60px;
+            right: 60px;
+        }
+        
+        .blog .blog-post:hover .telegram:hover span{
+            color: darkblue;
+        }
+        
+        .blog .blog-post:hover .facebook{
+            transform: rotate(45deg);
+            bottom: 280px;
+            right: 60px;
+        }
+        
+        .blog .blog-post:hover .facebook:hover span{
+            color: lightskyblue;
+        }
+        
+        
+        .blog .blog-post:hover .gplus{
+            transform: rotate(45deg);
+            bottom: 280px;
+            left: 60px;
+        }
+        
+        .blog .blog-post:hover .gplus:hover span{
+            color: crimson;
+        }
+        img{
+            max-width: 100%;
+        }
+        }
+        @media (min-width:540px ) and (max-width :768px) {
+            .blog{
+                width: 100%;
+                margin: 10px 0;
+                padding: 15px 0;
+            }
+            
+            .blog .blog-post{
+                width: 32.33%;
+                padding: 10px;
+                float: left;
+                border-radius: 6px;
+                box-shadow: 2px 2px 2px #333;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .blog .blog-post h2{
+                padding: 5px;
+                font-size: 19px;
+                line-height: 1.6;
+                text-align: center;
+            }
+            
+            .blog .blog-post hr{
+                width: 65%;
+                height: 3px;
+                margin: 8px auto;
+                border-radius: 1.5px;
+                background-color: #555;
+            }
+            
+            .blog .blog-post p{
+                font-size: 11px;
+                line-height: 1.4;
+                text-align: justify;
+                padding: 10px;
+                color: rgb(121, 92, 92);
+            }
+            
+            .blog .blog-post a{
+                display: block;
+                width: 80%;
+                margin: 5px auto;
+                padding: 8px 15px;
+                background-color: whitesmoke;
+                color:rgb(121, 92, 92) ;
+                text-decoration: none;
+                text-align: center;
+                border-radius: 4px;
+                transition: all .3s ease-in-out;
+            }
+            
+            .blog .blog-post a:hover{
+                color: rgb(102, 70, 70);
+                box-shadow:2px 2px 2px #333 ;
+            }
+            
+            .blog .blog-post .insta
+            ,.blog .blog-post .telegram
+            ,.blog .blog-post .facebook
+            ,.blog .blog-post .gplus {
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                background-color: rgba(30 ,30 ,30 ,.3);
+                border-radius: 2px;
+                cursor: pointer;
+                
+            }
+            
+            .blog .blog-post .insta span
+            ,.blog .blog-post .telegram span
+            ,.blog .blog-post .facebook span
+            ,.blog .blog-post .gplus span{
+                font-size: 35px;
+                line-height: 60px;
+                transform: rotate(-45deg);
+            }
+            
+            .blog .blog-post .insta{
+                position: absolute;
+                top:-60px;
+                left:-60px;
+                transition: all .4s ease-in;
+            }
+            
+            .blog .blog-post .telegram{
+                position: absolute;
+                top:-60px;
+                right:-60px;
+                transition: all .4s ease-in;
+            }
+            
+            .blog .blog-post .facebook{
+                position: absolute;
+                bottom:-60px;
+                right:-60px;
+                transition: all .4s ease-in;
+            }
+            
+            .blog .blog-post .gplus{
+                position: absolute;
+                bottom:-60px;
+                left:-60px;
+                transition: all .4s ease-in;
+            }
+            
+            .blog .blog-post:hover .insta{
+                transform: rotate(45deg);
+                top: 60px;
+                left: 60px;
+            }
+            
+            .blog .blog-post:hover .insta:hover span{
+                color: orangered;
+            }
+            
+            .blog .blog-post:hover .telegram{
+                transform: rotate(45deg);
+                top: 60px;
+                right: 60px;
+            }
+            
+            .blog .blog-post:hover .telegram:hover span{
+                color: darkblue;
+            }
+            
+            .blog .blog-post:hover .facebook{
+                transform: rotate(45deg);
+                bottom: 280px;
+                right: 60px;
+            }
+            
+            .blog .blog-post:hover .facebook:hover span{
+                color: lightskyblue;
+            }
+            
+            
+            .blog .blog-post:hover .gplus{
+                transform: rotate(45deg);
+                bottom: 280px;
+                left: 60px;
+            }
+            
+            .blog .blog-post:hover .gplus:hover span{
+                color: crimson;
+            }
+            img{
+                max-width: 100%;
+            }
+            }
+            @media (max-width:540px) {
+                .blog{
+                    width: 100%;
+                    margin: 10px 0;
+                    padding: 15px 0;
+                }
+                
+                .blog .blog-post{
+                    width: 31.33%;
+                    padding: 10px;
+                    float: left;
+                    border-radius: 6px;
+                    box-shadow: 2px 2px 2px #333;
+                    position: relative;
+                    overflow: hidden;
+                }
+                
+                .blog .blog-post h2{
+                    padding: 5px;
+                    font-size: 16px;
+                    line-height: 1.6;
+                    text-align: center;
+                }
+                
+                .blog .blog-post hr{
+                    width: 65%;
+                    height: 3px;
+                    margin: 8px auto;
+                    border-radius: 1.5px;
+                    background-color: #555;
+                }
+                
+                .blog .blog-post p{
+                    font-size: 9px;
+                    line-height: 1.4;
+                    text-align: justify;
+                    padding: 10px;
+                    color: rgb(121, 92, 92);
+                }
+                
+                .blog .blog-post a{
+                    display: block;
+                    width: 80%;
+                    margin: 5px auto;
+                    padding: 8px 15px;
+                    background-color: whitesmoke;
+                    color:rgb(121, 92, 92) ;
+                    text-decoration: none;
+                    text-align: center;
+                    border-radius: 4px;
+                    transition: all .3s ease-in-out;
+                }
+                
+                .blog .blog-post a:hover{
+                    color: rgb(102, 70, 70);
+                    box-shadow:2px 2px 2px #333 ;
+                }
+                
+                .blog .blog-post .insta
+                ,.blog .blog-post .telegram
+                ,.blog .blog-post .facebook
+                ,.blog .blog-post .gplus {
+                    width: 60px;
+                    height: 60px;
+                    text-align: center;
+                    background-color: rgba(30 ,30 ,30 ,.3);
+                    border-radius: 2px;
+                    cursor: pointer;
+                    
+                }
+                
+                .blog .blog-post .insta span
+                ,.blog .blog-post .telegram span
+                ,.blog .blog-post .facebook span
+                ,.blog .blog-post .gplus span{
+                    font-size: 35px;
+                    line-height: 60px;
+                    transform: rotate(-45deg);
+                }
+                
+                .blog .blog-post .insta{
+                    position: absolute;
+                    top:-60px;
+                    left:-60px;
+                    transition: all .4s ease-in;
+                }
+                
+                .blog .blog-post .telegram{
+                    position: absolute;
+                    top:-60px;
+                    right:-60px;
+                    transition: all .4s ease-in;
+                }
+                
+                .blog .blog-post .facebook{
+                    position: absolute;
+                    bottom:-60px;
+                    right:-60px;
+                    transition: all .4s ease-in;
+                }
+                
+                .blog .blog-post .gplus{
+                    position: absolute;
+                    bottom:-60px;
+                    left:-60px;
+                    transition: all .4s ease-in;
+                }
+                
+                .blog .blog-post:hover .insta{
+                    transform: rotate(45deg);
+                    top: 60px;
+                    left: 60px;
+                }
+                
+                .blog .blog-post:hover .insta:hover span{
+                    color: orangered;
+                }
+                
+                .blog .blog-post:hover .telegram{
+                    transform: rotate(45deg);
+                    top: 60px;
+                    right: 60px;
+                }
+                
+                .blog .blog-post:hover .telegram:hover span{
+                    color: darkblue;
+                }
+                
+                .blog .blog-post:hover .facebook{
+                    transform: rotate(45deg);
+                    bottom: 280px;
+                    right: 60px;
+                }
+                
+                .blog .blog-post:hover .facebook:hover span{
+                    color: lightskyblue;
+                }
+                
+                
+                .blog .blog-post:hover .gplus{
+                    transform: rotate(45deg);
+                    bottom: 280px;
+                    left: 60px;
+                }
+                
+                .blog .blog-post:hover .gplus:hover span{
+                    color: crimson;
+                }
+                img{
+                    max-width: 100%;
+                }
+                }

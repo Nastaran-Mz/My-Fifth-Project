@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEdge | دنیای فناوری</title>
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Header.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+
+</head>
+
+<body>
+    <main>
+        <!--header.css-->
+        <header>
+            <section class="pull-right">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">صفحه اصلی</a></li>
+                        <li><a href="gallery.html">گالری تصاویر</a></li>
+                        <li><a href="news.html">اخبار</a></li>
+                        <li><a href="jornal.html">مقالات</a></li>
+                        <li><a href="about-us.html">درباره ما</a></li>
+                        <li><a href="contact.html">تماس با ما</a></li>
+                        <li><a href="#"></a>فروشگاه</li>
+                    </ul>
+                </nav>
+            </section>
+
+            <section class="pull-left">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <section class="reg">
+                    <button>ثبت نام/ورود</button>
+                </section>
+            </section>
+        </header>
+
+        <!--shop.css-->
+        <section class="shop">
+            <header class="h-shop">
+                <nav class="n-shop">
+                    <div class="cart__count">
+                        <i class="fa fa-shopping-cart"></i>
+                        <div class="total__counter">0 </div>
+                    </div>
+                    <div class="logo-shop">
+                        <h3>TechEdge | فروشگاه دنیای فناوری </h3>
+                    </div>
+                </nav>
+
+                <div class="cart">
+                    <div class="cart__items">
+
+                        <div class="check_out">
+                            <h4 class="total-prise">مجموع: </h4>
+                            <h4 class="total__cost">0</h4>
+                            تومان
+                            <button class="btn check_out_btn btn__remove">حذف همه</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="clearfix"></div>
+
+            <section class="products">
+                <div class="product__element">
+                    <input type="hidden" id="product_id" value="1">
+                    <img src="img/5.jpg" id="image" alt="">
+                    <h4 class="product__name">Apple Color</h4>
+                    <div class="many">
+                        <h5 class="product__price">90000</h5>
+                        <span>تومان</span>
+                    </div>
+                    <div class="btn_add_to_cart">افزودن به سبد خرید</div>
+                </div>
+
+                <div class="product__element">
+                    <input type="hidden" id="product_id" value="2">
+                    <img src="img/6.jpg" id="image" alt="">
+                    <h4 class="product__name">Apple Color</h4>
+                    <div class="many">
+                        <h5 class="product__price">80000</h5>
+                        <span>تومان</span>
+                    </div>
+                    <div class="btn_add_to_cart">افزودن به سبد خرید</div>
+                </div>
+
+                <div class="product__element">
+                    <input type="hidden" id="product_id" value="3">
+                    <img src="img/5.jpg" id="image" alt="">
+                    <h4 class="product__name">Apple Color</h4>
+                    <div class="many">
+                        <h5 class="product__price">100000</h5>
+                        <span>تومان</span>
+                    </div>
+                    <div class="btn_add_to_cart">افزودن به سبد خرید</div>
+                </div>
+            </section>
+
+        </section>
+
+        <div class="clearfix"></div>
+
+        <!--footer.css-->
+        <footer>
+            <section class="md-n">
+                <section class="social">
+                    <section class="insta">
+                        <span class="fab fa-instagram"></span>
+                    </section>
+                    <section class="telegram">
+                        <span class="fab fa-telegram"></span>
+                    </section>
+                    <section class="gplus">
+                        <span class="fab fa-google-plus"></span>
+                    </section>
+                    <section class="facebook">
+                        <span class="fab fa-facebook"></span>
+                    </section>
+                </section>
+                <section class="copy">
+                    <p>
+                        تمامی حقوق متعلق به مالک سایت می باشد
+                    </p>
+                </section>
+            </section>
+        </footer>
+    </main>
+
+
+
+    <!--locate js-->
+    <script>
+        const countCounter = document.querySelector('.cart__count');
+        const cartDOM = document.querySelector('.cart__items');
+        const addToCartBtn = document.querySelectorAll('.btn_add_to_cart');
+        const totalCount = document.querySelector('.total__counter');
+        const totalCost = document.querySelector('.total__cost');
+        const check_out_btn = document.querySelector('.check_out_btn');
+        let cartItems = (JSON.parse(localStorage.getItem("cart___items")) || []);
+
+        document.addEventListener("DOMContentLoaded", loadData)
+
+
+        check_out_btn.addEventListener('click', function () {
+            if (confirm('آیا از حذف محصولات در سبد خرید مطمئنید؟')) {
+                clearCatItems();
+            }
+
+        })
+
+        countCounter.addEventListener('click', function () {
+            cartDOM.classList.toggle('active')
+        })
+
+        addToCartBtn.forEach(btn => {
+            btn.addEventListener('click', () => {
+                let parentElement = btn.parentElement;
+                const product = {
+                    id: parentElement.querySelector('#product_id').value,
+                    name: parentElement.querySelector('.product__name').innerText,
+                    image: parentElement.querySelector('#image').getAttribute('src'),
+                    price: parentElement.querySelector('.product__price').innerText,
+                    quantity: 1,
+                }
+
+                let IsInCart = cartItems.filter(item => item.id === product.id).length > 0;
+
+                if (!IsInCart) {
+                    addItemToTheDom(product)
+                } else {
+                    alert('این محصول در سبد خرید موجود است.');
+                    return
+                }
+
+
+                const cartDOMItems = document.querySelectorAll('.cart__item');
+
+                cartDOMItems.forEach(inItem => {
+                    if (inItem.querySelector('#product__id').value === product.id) {
+                        increaseItem(inItem, product)
+                        decreaseItem(inItem, product)
+                        removeItem(inItem, product)
+                    }
+                })
+
+
+                cartItems.push(product);
+                calculateTotal();
+                saveToLocalStorage()
+            })
+        })
+
+
+        function saveToLocalStorage() {
+            localStorage.setItem("cart___items", JSON.stringify(cartItems))
+        }
+
+
+        function addItemToTheDom(product) {
+            cartDOM.insertAdjacentHTML("afterbegin", `
+            <div class="cart__item">
+            <input type="hidden" id="product__id" value="${product.id}">
+            <img src="${product.image}" id="product__" alt="">
+            <h4 class="product__name">${product.name}</h4>
+            <a  class="btn__small" action="decrease">&minus;</a>
+            <h4 class="product__quantity">${product.quantity}</h4>
+            <a class="btn__small" action="increase">&plus;</a>
+            <h4 class="product_price">${product.price}</h4>
+            <a class="btn__small btn__remove " action="remove">&times;</a>
+        </div>
+    `)
+        }
+
+
+        function calculateTotal() {
+            let total = 0;
+            cartItems.forEach(item => {
+                total += item.quantity * item.price
+            })
+            totalCost.innerText = total;
+            totalCount.innerText = cartItems.length
+        }
+
+
+        function increaseItem(inItem, product) {
+            inItem.querySelector("[action='increase']").addEventListener('click', function () {
+                cartItems.forEach(cartItem => {
+                    if (cartItem.id === product.id) {
+                        inItem.querySelector('.product__quantity').innerText = ++cartItem.quantity;
+                        calculateTotal()
+                        saveToLocalStorage()
+                    }
+                })
+            })
+        }
+
+        function decreaseItem(inItem, product) {
+            inItem.querySelector("[action='decrease']").addEventListener('click', function () {
+                cartItems.forEach(cartItem => {
+                    if (cartItem.id === product.id) {
+
+                        if (cartItem.quantity > 1) {
+                            inItem.querySelector('.product__quantity').innerText = --cartItem.quantity;
+                        } else {
+                            cartItems = cartItems.filter(newElement => newElement.id !== product.id);
+                            inItem.remove();
+                        }
+                        calculateTotal()
+                        saveToLocalStorage()
+                    }
+                })
+            })
+        }
+
+        function removeItem(inItem, product) {
+            inItem.querySelector("[action='remove']").addEventListener('click', function () {
+                cartItems.forEach(cartItem => {
+                    if (cartItem.id === product.id) {
+
+                        cartItems = cartItems.filter(newElement => newElement.id !== product.id);
+                        inItem.remove();
+                        calculateTotal()
+                        saveToLocalStorage()
+                    }
+                })
+            })
+        }
+
+
+
+        function loadData() {
+            if (cartItems.length > 0) {
+                cartItems.forEach(product => {
+                    addItemToTheDom(product);
+
+                    const cartDOMItems = document.querySelectorAll('.cart__item');
+
+                    cartDOMItems.forEach(inItem => {
+                        if (inItem.querySelector('#product__id').value === product.id) {
+                            increaseItem(inItem, product)
+                            decreaseItem(inItem, product)
+                            removeItem(inItem, product)
+                        }
+                    })
+
+                });
+                calculateTotal()
+                saveToLocalStorage()
+            }
+        }
+
+
+
+        function clearCatItems() {
+            localStorage.clear();
+            cartItems = [];
+
+            document.querySelectorAll('.cart__item').forEach(item => {
+                item.remove();
+            })
+            calculateTotal()
+        }
+    </script>
+</body>
+
+</html>

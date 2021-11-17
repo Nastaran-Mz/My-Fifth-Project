@@ -1,0 +1,372 @@
+@media (min-width:1200px) {
+.pull-right{
+    float: right;
+    width: 70%;
+}
+
+.pull-left{
+    float: left;
+    width: 30%;
+   
+}
+
+header{
+    width: 100%;
+    background:linear-gradient(to left ,rgba(200 ,200 ,200 ,.6) ,rgba(0 , 0 ,0 ,.6));
+    float: left;
+}
+
+header .pull-right nav{
+    width: 100%;
+}
+
+header .pull-right nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+header .pull-right nav ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 18px 14px;
+    color: #000;
+}
+
+header .pull-right nav ul li a:hover{
+    color: #666;
+}
+
+header  button{
+    
+    width: 180px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 1.2;
+    padding: 3px 20px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 0 0 2px rgba(117, 117, 117, .5); 
+    
+}
+
+header  button:hover{
+    color: #777;
+}
+
+.pull-left .logo{
+    width: 13%;
+    padding: 5px 0;
+    float: left;
+    margin-left: 15px;
+}
+
+img{
+    max-width: 100%;
+}
+}
+@media (min-width:990px ) and (max-width :1200px) {
+
+    .pull-right{
+        float: right;
+        width: 70%;
+    }
+    
+    .pull-left{
+        float: left;
+        width: 30%;
+       
+    }
+    
+    header{
+        width: 100%;
+        background:linear-gradient(to left ,rgba(200 ,200 ,200 ,.6) ,rgba(0 , 0 ,0 ,.6));
+        float: left;
+    }
+    
+    header .pull-right nav{
+        width: 100%;
+    }
+    
+    header .pull-right nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    header .pull-right nav ul li a{
+        display: block;
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 18px 14px;
+        color: #000;
+    }
+    
+    header .pull-right nav ul li a:hover{
+        color: #666;
+    }
+    
+    header  button{
+        
+        width: 150px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 1.2;
+        padding: 3px 20px;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        border-radius: 5px;
+        transition: all .3s ease-in-out;
+        cursor: pointer;
+        background-color: #000;
+        color: #fff;
+        box-shadow: 0 0 0 2px rgba(117, 117, 117, .5); 
+        
+    }
+    
+    header  button:hover{
+        color: #777;
+    }
+    
+    .pull-left .logo{
+        width: 13%;
+        padding: 5px 0;
+        float: left;
+        margin-left: 15px;
+    }
+    
+    img{
+        max-width: 100%;
+    }
+    }
+    @media (min-width:768px ) and (max-width :990px) {
+    
+        .pull-right{
+            float: right;
+            width: 70%;
+        }
+        
+        .pull-left{
+            float: left;
+            width: 30%;
+           
+        }
+        
+        header{
+            width: 100%;
+            background:linear-gradient(to left ,rgba(200 ,200 ,200 ,.6) ,rgba(0 , 0 ,0 ,.6));
+            float: left;
+        }
+        
+        header .pull-right nav{
+            width: 100%;
+        }
+        
+        header .pull-right nav ul li{
+            display: inline-block;
+            list-style: none;
+        }
+        
+        header .pull-right nav ul li a{
+            display: block;
+            text-decoration: none;
+            font-size: 14px;
+            line-height: 1.2;
+            padding: 18px 14px;
+            color: #000;
+        }
+        
+        header .pull-right nav ul li a:hover{
+            color: #666;
+        }
+        
+        header  button{
+            
+            width: 150px;
+            height: 30px;
+            font-size: 16px;
+            line-height: 1.2;
+            padding: 3px 20px;
+            margin-top: 12px;
+            margin-bottom: 5px;
+            border-radius: 5px;
+            transition: all .3s ease-in-out;
+            cursor: pointer;
+            background-color: #000;
+            color: #fff;
+            box-shadow: 0 0 0 2px rgba(117, 117, 117, .5); 
+            
+        }
+        
+        header  button:hover{
+            color: #777;
+        }
+        
+        .pull-left .logo{
+            width: 12%;
+            padding: 10px 0;
+            float: left;
+            margin-left: 15px;
+        }
+        
+        img{
+            max-width: 100%;
+        }
+        }
+        @media (min-width:540px ) and (max-width :768px) {
+
+            .pull-right{
+                float: right;
+                width: 70%;
+            }
+            
+            .pull-left{
+                float: left;
+                width: 30%;
+               
+            }
+            
+            header{
+                width: 100%;
+                background:linear-gradient(to left ,rgba(200 ,200 ,200 ,.6) ,rgba(0 , 0 ,0 ,.6));
+                float: left;
+            }
+            
+            header .pull-right nav{
+                width: 100%;
+            }
+            
+            header .pull-right nav ul li{
+                display: inline-block;
+                list-style: none;
+            }
+            
+            header .pull-right nav ul li a{
+                display: block;
+                text-decoration: none;
+                font-size: 9px;
+                font-weight: 900;
+                line-height: 1.2;
+                padding: 18px 14px;
+                color: #000;
+            }
+            
+            header .pull-right nav ul li a:hover{
+                color: #666;
+            }
+            
+            header  button{
+                
+                width: 120px;
+                height: 30px;
+                font-size: 13px;
+                line-height: 1.2;
+                padding: 3px 20px;
+                margin-top: 12px;
+                margin-bottom: 5px;
+                border-radius: 5px;
+                transition: all .3s ease-in-out;
+                cursor: pointer;
+                background-color: #000;
+                color: #fff;
+                box-shadow: 0 0 0 2px rgba(117, 117, 117, .5); 
+                
+            }
+            
+            header  button:hover{
+                color: #777;
+            }
+            
+            .pull-left .logo{
+                width: 10%;
+                padding: 13px 0;
+                float: left;
+                margin-left: 15px;
+            }
+            
+            img{
+                max-width: 100%;
+            }
+            }
+            @media (max-width:540px) {
+    
+                .pull-right{
+                    float: right;
+                    width: 70%;
+                }
+                
+                .pull-left{
+                    float: left;
+                    width: 30%;
+                   
+                }
+                
+                header{
+                    width: 100%;
+                    background:linear-gradient(to left ,rgba(200 ,200 ,200 ,.6) ,rgba(0 , 0 ,0 ,.6));
+                    float: left;
+                }
+                
+                header .pull-right nav{
+                    width: 100%;
+                }
+                
+                header .pull-right nav ul li{
+                    display: inline-block;
+                    list-style: none;
+                }
+                
+                header .pull-right nav ul li a{
+                    display: block;
+                    text-decoration: none;
+                    font-size: 6px;
+                    line-height: 1.2;
+                    padding: 18px 14px;
+                    color: #000;
+                }
+                
+                header .pull-right nav ul li a:hover{
+                    color: #666;
+                }
+                
+                header  button{
+                    
+                    width: 89px;
+                    height: 30px;
+                    font-size:9px;
+                    line-height: 1.2;
+                    padding: 3px 20px;
+                    margin-top: 12px;
+                    margin-bottom: 5px;
+                    border-radius: 5px;
+                    transition: all .3s ease-in-out;
+                    cursor: pointer;
+                    background-color: #000;
+                    color: #fff;
+                    box-shadow: 0 0 0 2px rgba(117, 117, 117, .5); 
+                    
+                }
+                
+                header  button:hover{
+                    color: #777;
+                }
+                
+                .pull-left .logo{
+                    width: 13%;
+                    padding: 13px 0;
+                    float: left;
+                    margin-left: 15px;
+                }
+                
+                img{
+                    max-width: 100%;
+                }
+                }
+
+

@@ -1,0 +1,570 @@
+@media (min-width:1200px){
+.recruitement {
+	width: 100%;
+	float: right;
+	box-shadow: 2px 2px 2px #666;
+}
+
+.recruitement h1 {
+	font-size: 30px;
+	line-height: 50px;
+	text-align: center;
+    font-weight: bold;
+    margin: 5px 0;
+	color: #666;
+}
+
+.recruitement hr{
+    width: 65%;
+    height: 3px;
+    margin: 8px auto;
+    border-radius: 1.5px;
+    background-color: #555;
+}
+
+.recruitement .rec-items {
+	width: 33.33%;
+	margin: 5px 0;
+	padding: 5px 30px;
+	float: right;
+}
+
+.recruitement .rec-items select {
+	width: 32.33%;
+	height: 40px;
+	margin: 10px 0 0 0;
+}
+
+.recruitement .radio select {
+	width: 100%;
+	height: 40px;
+	margin: 10px 0 0 0;
+}
+
+.recruitement .rec-items label {
+    display: block;
+    color: rgb(80, 80, 116);
+}
+.recruitement .rec-items option ,select{
+    color: rgb(80, 80, 116);
+}
+
+.recruitement .rec-items input {
+	width: 100%;
+	height: 40px;
+	margin: 5px 0 0;
+	font-size: 16px;
+	border-bottom: 2px solid rgba(187, 138, 138, 0.8);
+	transition: all .3s ease-in-out;
+}
+
+.recruitement .rec-items input:focus {
+	border-bottom: 2px solid rgba(0, 210, 0, 0.8);
+	border-radius: 5px;
+}
+
+.recruitement .rec-items textarea {
+	width: 100%;
+	margin-top: 10px;
+	resize: none;
+	box-shadow: 1px 1px 2px 3px #888;
+}
+
+.recruitement .file {
+	height: 170px
+}
+
+.recruitement h3 {
+	font-size: 22px;
+	line-height: 4;
+	text-align: center;
+}
+
+.recruitement .file input[type="file"] {
+	border: none;
+}
+
+.recruitement .rec-items .file input[type="file"]:focus {
+	border: none;
+	background-color: none;
+}
+
+.recruitement .validate {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.recruitement button {
+	display: block;
+	width: 140px;
+	height: 45px;
+	margin: 5px auto;
+	background-color: whitesmoke;
+    color:rgb(121, 92, 92) ;
+	border-radius: 4px;
+	transition: all .5s ease;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+.recruitement button:hover {
+    color: rgb(102, 70, 70);
+    box-shadow:2px 2px 2px #333 ;
+}
+}
+@media (min-width:990px ) and (max-width :1200px){
+	.recruitement {
+		width: 100%;
+		float: right;
+		box-shadow: 2px 2px 2px #666;
+	}
+	
+	.recruitement h1 {
+		font-size: 29px;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bold;
+		margin: 5px 0;
+		color: #666;
+	}
+	
+	.recruitement hr{
+		width: 65%;
+		height: 3px;
+		margin: 8px auto;
+		border-radius: 1.5px;
+		background-color: #555;
+	}
+	
+	.recruitement .rec-items {
+		width: 33.33%;
+		margin: 5px 0;
+		padding: 5px 30px;
+		float: right;
+	}
+	
+	.recruitement .rec-items select {
+		width: 32.33%;
+		height: 40px;
+		margin: 10px 0 0 0;
+	}
+	
+	.recruitement .radio select {
+		width: 100%;
+		height: 40px;
+		margin: 10px 0 0 0;
+	}
+	
+	.recruitement .rec-items label {
+		display: block;
+		color: rgb(80, 80, 116);
+	}
+	.recruitement .rec-items option ,select{
+		color: rgb(80, 80, 116);
+	}
+	
+	.recruitement .rec-items input {
+		width: 100%;
+		height: 40px;
+		margin: 5px 0 0;
+		font-size: 16px;
+		border-bottom: 2px solid rgba(187, 138, 138, 0.8);
+		transition: all .3s ease-in-out;
+	}
+	
+	.recruitement .rec-items input:focus {
+		border-bottom: 2px solid rgba(0, 210, 0, 0.8);
+		border-radius: 5px;
+	}
+	
+	.recruitement .rec-items textarea {
+		width: 100%;
+		margin-top: 10px;
+		resize: none;
+		box-shadow: 1px 1px 2px 3px #888;
+	}
+	
+	.recruitement .file {
+		height: 170px
+	}
+	
+	.recruitement h3 {
+		font-size: 22px;
+		line-height: 4;
+		text-align: center;
+	}
+	
+	.recruitement .file input[type="file"] {
+		border: none;
+	}
+	
+	.recruitement .rec-items .file input[type="file"]:focus {
+		border: none;
+		background-color: none;
+	}
+	
+	.recruitement .validate {
+		width: 100%;
+		margin: 10px 0;
+	}
+	
+	.recruitement button {
+		display: block;
+		width: 140px;
+		height: 45px;
+		margin: 5px auto;
+		background-color: whitesmoke;
+		color:rgb(121, 92, 92) ;
+		border-radius: 4px;
+		transition: all .5s ease;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	
+	.recruitement button:hover {
+		color: rgb(102, 70, 70);
+		box-shadow:2px 2px 2px #333 ;
+	}
+	}
+	@media (min-width:768px ) and (max-width :990px){
+		.recruitement {
+			width: 100%;
+			float: right;
+			box-shadow: 2px 2px 2px #666;
+		}
+		
+		.recruitement h1 {
+			font-size: 28px;
+			line-height: 50px;
+			text-align: center;
+			font-weight: bold;
+			margin: 5px 0;
+			color: #666;
+		}
+		
+		.recruitement hr{
+			width: 65%;
+			height: 3px;
+			margin: 8px auto;
+			border-radius: 1.5px;
+			background-color: #555;
+		}
+		
+		.recruitement .rec-items {
+			width: 32.33%;
+			margin: 5px 0;
+			padding: 5px 30px;
+			float: right;
+		}
+		
+		.recruitement .rec-items select {
+			width: 32.33%;
+			height: 40px;
+			margin: 10px 0 0 0;
+		}
+		
+		.recruitement .radio select {
+			width: 100%;
+			height: 40px;
+			margin: 10px 0 0 0;
+		}
+		
+		.recruitement .rec-items label {
+			display: block;
+			color: rgb(80, 80, 116);
+		}
+		.recruitement .rec-items option ,select{
+			color: rgb(80, 80, 116);
+		}
+		
+		.recruitement .rec-items input {
+			width: 100%;
+			height: 40px;
+			margin: 5px 0 0;
+			font-size: 16px;
+			border-bottom: 2px solid rgba(187, 138, 138, 0.8);
+			transition: all .3s ease-in-out;
+		}
+		
+		.recruitement .rec-items input:focus {
+			border-bottom: 2px solid rgba(0, 210, 0, 0.8);
+			border-radius: 5px;
+		}
+		
+		.recruitement .rec-items textarea {
+			width: 100%;
+			margin-top: 10px;
+			resize: none;
+			box-shadow: 1px 1px 2px 3px #888;
+		}
+		
+		.recruitement .file {
+			height: 170px
+		}
+		
+		.recruitement h3 {
+			font-size: 22px;
+			line-height: 4;
+			text-align: center;
+		}
+		
+		.recruitement .file input[type="file"] {
+			border: none;
+		}
+		
+		.recruitement .rec-items .file input[type="file"]:focus {
+			border: none;
+			background-color: none;
+		}
+		
+		.recruitement .validate {
+			width: 100%;
+			margin: 10px 0;
+		}
+		
+		.recruitement button {
+			display: block;
+			width: 140px;
+			height: 45px;
+			margin: 5px auto;
+			background-color: whitesmoke;
+			color:rgb(121, 92, 92) ;
+			border-radius: 4px;
+			transition: all .5s ease;
+			cursor: pointer;
+			font-size: 18px;
+		}
+		
+		.recruitement button:hover {
+			color: rgb(102, 70, 70);
+			box-shadow:2px 2px 2px #333 ;
+		}
+		}
+		@media (min-width:540px ) and (max-width :768px){
+			.recruitement {
+				width: 100%;
+				float: right;
+				box-shadow: 2px 2px 2px #666;
+			}
+			
+			.recruitement h1 {
+				font-size: 26px;
+				line-height: 50px;
+				text-align: center;
+				font-weight: bold;
+				margin: 5px 0;
+				color: #666;
+			}
+			
+			.recruitement hr{
+				width: 65%;
+				height: 3px;
+				margin: 8px auto;
+				border-radius: 1.5px;
+				background-color: #555;
+			}
+			
+			.recruitement .rec-items {
+				width: 33.33%;
+				margin: 0 auto;
+				padding: 5px 30px;
+				float: right;
+			}
+			
+			.recruitement .rec-items select {
+				width: 32.33%;
+				height: 40px;
+				margin: 10px 0 0 0;
+			}
+			
+			.recruitement .radio select {
+				width: 100%;
+				height: 40px;
+				margin: 10px 0 0 0;
+			}
+			
+			.recruitement .rec-items label {
+				display: block;
+				color: rgb(80, 80, 116);
+			}
+			.recruitement .rec-items option ,select{
+				color: rgb(80, 80, 116);
+			}
+			
+			.recruitement .rec-items input {
+				width: 100%;
+				height: 40px;
+				margin: 5px 0 0;
+				font-size: 16px;
+				border-bottom: 2px solid rgba(187, 138, 138, 0.8);
+				transition: all .3s ease-in-out;
+			}
+			
+			.recruitement .rec-items input:focus {
+				border-bottom: 2px solid rgba(0, 210, 0, 0.8);
+				border-radius: 5px;
+			}
+			
+			.recruitement .rec-items textarea {
+				width: 100%;
+				margin-top: 10px;
+				resize: none;
+				box-shadow: 1px 1px 2px 3px #888;
+			}
+			
+			.recruitement .file {
+				height: 170px
+			}
+			
+			.recruitement h3 {
+				font-size: 22px;
+				line-height: 4;
+				text-align: center;
+			}
+			
+			.recruitement .file input[type="file"] {
+				border: none;
+			}
+			
+			.recruitement .rec-items .file input[type="file"]:focus {
+				border: none;
+				background-color: none;
+			}
+			
+			.recruitement .validate {
+				width: 100%;
+				margin: 10px 0;
+			}
+			
+			.recruitement button {
+				display: block;
+				width: 140px;
+				height: 45px;
+				margin: 5px auto;
+				background-color: whitesmoke;
+				color:rgb(121, 92, 92) ;
+				border-radius: 4px;
+				transition: all .5s ease;
+				cursor: pointer;
+				font-size: 18px;
+			}
+			
+			.recruitement button:hover {
+				color: rgb(102, 70, 70);
+				box-shadow:2px 2px 2px #333 ;
+			}
+			}
+			@media  (max-width:540px){
+				.recruitement {
+					width: 100%;
+					float: right;
+					box-shadow: 2px 2px 2px #666;
+				}
+				
+				.recruitement h1 {
+					font-size: 30px;
+					line-height: 50px;
+					text-align: center;
+					font-weight: bold;
+					margin: 5px 0;
+					color: #666;
+				}
+				
+				.recruitement hr{
+					width: 65%;
+					height: 3px;
+					margin: 8px auto;
+					border-radius: 1.5px;
+					background-color: #555;
+				}
+				
+				.recruitement .rec-items {
+					width: 33.33%;
+					margin: 5px 0;
+					padding: 5px 30px;
+					float: right;
+				}
+				
+				.recruitement .rec-items select {
+					width: 32.33%;
+					height: 40px;
+					margin: 10px 0 0 0;
+				}
+				
+				.recruitement .radio select {
+					width: 100%;
+					height: 40px;
+					margin: 10px 0 0 0;
+				}
+				
+				.recruitement .rec-items label {
+					display: block;
+					color: rgb(80, 80, 116);
+				}
+				.recruitement .rec-items option ,select{
+					color: rgb(80, 80, 116);
+				}
+				
+				.recruitement .rec-items input {
+					width: 100%;
+					height: 40px;
+					margin: 5px 0 0;
+					font-size: 16px;
+					border-bottom: 2px solid rgba(187, 138, 138, 0.8);
+					transition: all .3s ease-in-out;
+				}
+				
+				.recruitement .rec-items input:focus {
+					border-bottom: 2px solid rgba(0, 210, 0, 0.8);
+					border-radius: 5px;
+				}
+				
+				.recruitement .rec-items textarea {
+					width: 100%;
+					margin-top: 10px;
+					resize: none;
+					box-shadow: 1px 1px 2px 3px #888;
+				}
+				
+				.recruitement .file {
+					height: 170px
+				}
+				
+				.recruitement h3 {
+					font-size: 22px;
+					line-height: 4;
+					text-align: center;
+				}
+				
+				.recruitement .file input[type="file"] {
+					border: none;
+				}
+				
+				.recruitement .rec-items .file input[type="file"]:focus {
+					border: none;
+					background-color: none;
+				}
+				
+				.recruitement .validate {
+					width: 100%;
+					margin: 10px 0;
+				}
+				
+				.recruitement button {
+					display: block;
+					width: 140px;
+					height: 45px;
+					margin: 5px auto;
+					background-color: whitesmoke;
+					color:rgb(121, 92, 92) ;
+					border-radius: 4px;
+					transition: all .5s ease;
+					cursor: pointer;
+					font-size: 18px;
+				}
+				
+				.recruitement button:hover {
+					color: rgb(102, 70, 70);
+					box-shadow:2px 2px 2px #333 ;
+				}
+				}

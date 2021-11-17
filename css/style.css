@@ -1,0 +1,92 @@
+
+
+@font-face{
+    font-family: webyekan;
+    src: url('../fnts/WebYekan.woff') format('woff');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: webyekan;
+    line-height: 1;
+    font-size: 16px;
+}
+
+main{
+    width: 100%;
+    background-color: #fff;
+}
+
+input,textarea,button ,select ,option{
+    font-family: webyekan;
+}
+
+:focus{
+    outline: none;
+}
+
+.clearfix{
+    clear: both;
+}
+
+aside{
+    width: 30%;
+    float: right;
+}
+
+aside h2{
+    text-align: center;
+    padding: 14px 0;
+    color: #5e585d;
+}
+
+aside .a-content{
+    width: 100%;
+    position: relative;
+    padding: 10px;
+}
+
+aside .a-content span{
+    width: 94.2%;
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.3;
+    color: #fcfcfa;
+    background-color: #333;
+    position: absolute;
+    bottom: 13px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+aside .a-content:hover span{
+    opacity: .8;
+    visibility: visible;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
